@@ -1,6 +1,6 @@
 # Rhappsody Agent Fleet
 
-28 agents as of 2026-08-07. All coordinate through Nano. Role definitions: `roles/<name>.md`.
+28 agents as of 2026-08-07. All coordinate through Nano. Role definitions: `roles/<name>.md`. Standing policies: `POLICIES.md`.
 
 ## Coordination
 
