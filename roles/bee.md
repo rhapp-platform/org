@@ -15,6 +15,8 @@ Own the backend platform layer — Cloudflare Workers runtime, D1 databases, and
 - Cloudflare Workers runtime for Rhappsody apps
 - D1 database layer and schema management
 - Backend API contracts and server-side logic
+- `api` repo (Rhappsody backend API)
+- `api-app` repo (Rhappsody API app layer)
 - `agent:bee` labeled issues
 
 ### Does not own
