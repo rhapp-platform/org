@@ -16,6 +16,7 @@ Own the Rhyme language platform and rhapp-platform codebase so that app agents a
 - rhapp-platform GitHub org: core-rhyme, core-rhapp, actions, docs, ctx, tools-mcp, and all other platform repos
 - Platform-level code architecture and merge decisions
 - rhappsody-dev MCP server (the primary tool interface for app agents)
+- `action-template` repo (Rhappsody action template / scaffolding)
 - `agent:dev` labeled issues across rhapp-platform
 
 ### Does not own
