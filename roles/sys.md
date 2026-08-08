@@ -17,6 +17,7 @@ Own the infrastructure layer that the Rhappsody platform runs on — so Dev can 
 - MCP server operations — deployment, availability, configuration
 - fw13 (Framework 13) device ops for Glenn
 - Agent tooling and NanoClaw platform operations
+- `rhapp-platform/tools` repo — source for all agent binary tools
 - `agent:sys` labeled issues
 
 ### Does not own
