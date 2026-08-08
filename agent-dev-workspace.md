@@ -6,6 +6,39 @@ Setup reference for dev agents that need to run platform tools (`rhepl`, `rtest`
 
 ---
 
+## Agent Tiers
+
+Not all agents need a full dev workspace. Agents fall into two tiers:
+
+### Tier 1 — Dev Workspace Agents
+
+These agents actively develop code **in** the platform repos (feature work, bug fixes, action authoring, smoke testing). They require a full checkout of the required repos at `$r`.
+
+| Agent | Primary role |
+|-------|-------------|
+| Dev | Feature development, action authoring |
+| Fee | Frontend / UI development |
+| Bee | Backend / service development |
+| Arc | Architecture, platform design |
+| Sys | Platform tooling, infra |
+| QA | Smoke tests, action validation (runs rhepl against source) |
+| Bar | Billing flows, business-critical platform work |
+
+All Tier 1 agents follow the setup in this document.
+
+### Tier 2 — Tool-User Agents
+
+These agents interact with deployed apps and use packaged CLI tools but do not modify platform source. They do **not** need a monorepo checkout.
+
+| Agent | Primary role |
+|-------|-------------|
+| Ren | Customer-facing app development (Renner) |
+| Others | Agents operating on deployed apps only |
+
+Tier 2 agents receive standalone agent-tools binaries (rhepl, rtest, syntax as packaged executables) without a source workspace.
+
+---
+
 ## Environment Variables
 
 All three names point to the same root. Set whichever your toolchain expects; all three should be consistent.
