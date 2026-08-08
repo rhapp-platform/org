@@ -16,6 +16,7 @@ Own the Rhappsody Studio experience and account-facing surface — so that users
 - Account-facing pages (user account management, billing UI, settings)
 - MCP integrations within the Studio experience
 - Pull pages (public-facing app preview and sharing pages)
+- `ai-connectors` repo (Rhappsody AI connector integrations)
 - `agent:stu` labeled issues
 
 ### Does not own
